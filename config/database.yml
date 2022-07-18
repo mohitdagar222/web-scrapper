@@ -18,6 +18,9 @@ production:
   database: web_scraper_production
   username: postgres
   password: root
-  host: 139.59.20.229
+  host: localhost
+  port: 5432
+
+  
  
 
