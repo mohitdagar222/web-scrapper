@@ -1,0 +1,230 @@
+=== puma startup: 2022-07-18 12:34:57 +0000 ===
+[1565] * Starting control server on unix:///tmp/puma-status-1658147697566-1565
+[1565] - Worker 0 (PID: 1575) booted in 0.91s, phase: 0
+[1565] - Gracefully shutting down workers...
+[1565] === puma shutdown: 2022-07-18 12:35:03 +0000 ===
+[1565] - Goodbye!
+Exiting
+=== puma startup: 2022-07-18 12:47:32 +0000 ===
+[5730] * Starting control server on unix:///tmp/puma-status-1658148452929-5730
+[5730] - Worker 0 (PID: 5736) booted in 0.1s, phase: 0
+[5730] - Gracefully shutting down workers...
+[5730] === puma shutdown: 2022-07-18 12:50:54 +0000 ===
+[5730] - Goodbye!
+Exiting
+=== puma startup: 2022-07-18 13:22:09 +0000 ===
+[6488] * Starting control server on unix:///tmp/puma-status-1658150529687-6488
+[6488] - Worker 0 (PID: 6494) booted in 0.06s, phase: 0
+[6488] - Gracefully shutting down workers...
+[6488] === puma shutdown: 2022-07-18 13:24:45 +0000 ===
+[6488] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 05:02:03 +0000 ===
+[20384] * Starting control server on unix:///tmp/puma-status-1658206923905-20384
+[20384] - Worker 0 (PID: 20391) booted in 0.08s, phase: 0
+[20384] - Gracefully shutting down workers...
+[20384] === puma shutdown: 2022-07-19 05:03:06 +0000 ===
+[20384] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 05:03:28 +0000 ===
+[20446] * Starting control server on unix:///tmp/puma-status-1658207008844-20446
+[20446] - Worker 0 (PID: 20452) booted in 0.04s, phase: 0
+[20446] - Gracefully shutting down workers...
+[20446] === puma shutdown: 2022-07-19 05:05:11 +0000 ===
+[20446] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 05:09:13 +0000 ===
+[20531] * Starting control server on unix:///tmp/puma-status-1658207353973-20531
+[20531] - Worker 0 (PID: 20536) booted in 2.69s, phase: 0
+[20531] - Gracefully shutting down workers...
+[20531] === puma shutdown: 2022-07-19 05:09:38 +0000 ===
+[20531] - Goodbye!
+=== puma startup: 2022-07-19 05:09:46 +0000 ===
+[20556] * Starting control server on unix:///tmp/puma-status-1658207386488-20556
+[20556] - Worker 0 (PID: 20562) booted in 0.05s, phase: 0
+[20556] - Gracefully shutting down workers...
+[20556] === puma shutdown: 2022-07-19 05:10:44 +0000 ===
+[20556] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 05:12:28 +0000 ===
+[20615] * Starting control server on unix:///tmp/puma-status-1658207548305-20615
+[20615] - Worker 0 (PID: 20621) booted in 0.05s, phase: 0
+[20615] - Gracefully shutting down workers...
+[20615] === puma shutdown: 2022-07-19 05:15:22 +0000 ===
+[20615] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 05:20:26 +0000 ===
+[20752] * Starting control server on unix:///tmp/puma-status-1658208026888-20752
+[20752] - Worker 0 (PID: 20760) booted in 0.06s, phase: 0
+[20752] - Gracefully shutting down workers...
+[20752] === puma shutdown: 2022-07-19 05:24:47 +0000 ===
+[20752] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 05:57:06 +0000 ===
+[21482] * Starting control server on unix:///tmp/puma-status-1658210226993-21482
+[21482] - Worker 0 (PID: 21488) booted in 0.06s, phase: 0
+[21482] - Gracefully shutting down workers...
+[21482] === puma shutdown: 2022-07-19 05:57:22 +0000 ===
+[21482] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 05:58:24 +0000 ===
+[21536] * Starting control server on unix:///tmp/puma-status-1658210304000-21536
+[21536] - Worker 0 (PID: 21542) booted in 0.05s, phase: 0
+[21536] - Gracefully shutting down workers...
+[21536] === puma shutdown: 2022-07-19 05:59:20 +0000 ===
+[21536] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 05:59:48 +0000 ===
+[21595] * Starting control server on unix:///tmp/puma-status-1658210388972-21595
+[21595] - Worker 0 (PID: 21601) booted in 0.05s, phase: 0
+[21595] - Gracefully shutting down workers...
+[21595] === puma shutdown: 2022-07-19 06:01:45 +0000 ===
+[21595] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 06:02:03 +0000 ===
+[21680] * Starting control server on unix:///tmp/puma-status-1658210523083-21680
+[21680] - Worker 0 (PID: 21686) booted in 0.05s, phase: 0
+[21680] - Gracefully shutting down workers...
+[21680] === puma shutdown: 2022-07-19 06:03:30 +0000 ===
+[21680] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 06:05:55 +0000 ===
+[21775] * Starting control server on unix:///tmp/puma-status-1658210755986-21775
+[21775] - Worker 0 (PID: 21781) booted in 0.05s, phase: 0
+[21775] - Gracefully shutting down workers...
+[21775] === puma shutdown: 2022-07-19 06:18:38 +0000 ===
+[21775] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 06:21:24 +0000 ===
+[22097] * Starting control server on unix:///tmp/puma-status-1658211684942-22097
+[22097] - Worker 0 (PID: 22103) booted in 0.05s, phase: 0
+[22097] - Gracefully shutting down workers...
+[22097] === puma shutdown: 2022-07-19 06:26:31 +0000 ===
+[22097] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 06:26:50 +0000 ===
+[22214] * Starting control server on unix:///tmp/puma-status-1658212010041-22214
+[22214] - Worker 0 (PID: 22220) booted in 0.05s, phase: 0
+[22214] - Gracefully shutting down workers...
+[22214] === puma shutdown: 2022-07-19 06:28:34 +0000 ===
+[22214] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 06:28:52 +0000 ===
+[22272] * Starting control server on unix:///tmp/puma-status-1658212132134-22272
+[22272] - Worker 0 (PID: 22278) booted in 0.05s, phase: 0
+[22272] - Gracefully shutting down workers...
+[22272] === puma shutdown: 2022-07-19 06:39:09 +0000 ===
+[22272] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 06:57:23 +0000 ===
+[23648] * Starting control server on unix:///tmp/puma-status-1658213843551-23648
+[23648] - Worker 0 (PID: 23655) booted in 0.05s, phase: 0
+[23648] - Gracefully shutting down workers...
+[23648] === puma shutdown: 2022-07-19 07:01:09 +0000 ===
+[23648] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:08:59 +0000 ===
+[24287] * Starting control server on unix:///tmp/puma-status-1658214539396-24287
+[24287] - Worker 0 (PID: 24295) booted in 0.05s, phase: 0
+[24287] - Gracefully shutting down workers...
+[24287] === puma shutdown: 2022-07-19 07:10:56 +0000 ===
+[24287] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:18:24 +0000 ===
+[24474] * Starting control server on unix:///tmp/puma-status-1658215104410-24474
+[24474] - Worker 0 (PID: 24480) booted in 0.05s, phase: 0
+[24474] - Gracefully shutting down workers...
+[24474] === puma shutdown: 2022-07-19 07:18:56 +0000 ===
+[24474] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:21:25 +0000 ===
+[24630] * Starting control server on unix:///tmp/puma-status-1658215285094-24630
+[24630] - Worker 0 (PID: 24636) booted in 0.04s, phase: 0
+[24630] - Gracefully shutting down workers...
+[24630] === puma shutdown: 2022-07-19 07:23:07 +0000 ===
+[24630] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:24:00 +0000 ===
+[25226] * Starting control server on unix:///tmp/puma-status-1658215440055-25226
+[25226] - Worker 0 (PID: 25232) booted in 0.05s, phase: 0
+[25226] - Gracefully shutting down workers...
+[25226] === puma shutdown: 2022-07-19 07:24:46 +0000 ===
+[25226] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:27:38 +0000 ===
+[25280] * Starting control server on unix:///tmp/puma-status-1658215658091-25280
+[25280] - Worker 0 (PID: 25287) booted in 0.04s, phase: 0
+[25280] - Gracefully shutting down workers...
+[25280] === puma shutdown: 2022-07-19 07:27:50 +0000 ===
+[25280] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:28:55 +0000 ===
+[25310] * Starting control server on unix:///tmp/puma-status-1658215735890-25310
+[25310] - Worker 0 (PID: 25316) booted in 0.05s, phase: 0
+[25310] - Gracefully shutting down workers...
+[25310] === puma shutdown: 2022-07-19 07:35:51 +0000 ===
+[25310] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:38:15 +0000 ===
+[25413] * Starting control server on unix:///tmp/puma-status-1658216295734-25413
+[25413] - Worker 0 (PID: 25419) booted in 0.05s, phase: 0
+[25413] - Gracefully shutting down workers...
+[25413] === puma shutdown: 2022-07-19 07:40:33 +0000 ===
+[25413] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:42:25 +0000 ===
+[25477] * Starting control server on unix:///tmp/puma-status-1658216545642-25477
+[25477] - Worker 0 (PID: 25483) booted in 0.05s, phase: 0
+[25477] - Gracefully shutting down workers...
+[25477] === puma shutdown: 2022-07-19 07:53:39 +0000 ===
+[25477] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:54:19 +0000 ===
+[25619] * Starting control server on unix:///tmp/puma-status-1658217259980-25619
+[25619] - Worker 0 (PID: 25625) booted in 0.05s, phase: 0
+[25619] - Gracefully shutting down workers...
+[25619] === puma shutdown: 2022-07-19 07:55:26 +0000 ===
+[25619] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:55:39 +0000 ===
+[25689] * Starting control server on unix:///tmp/puma-status-1658217339351-25689
+[25689] - Worker 0 (PID: 25695) booted in 0.04s, phase: 0
+[25689] - Gracefully shutting down workers...
+[25689] === puma shutdown: 2022-07-19 07:56:17 +0000 ===
+[25689] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 07:57:45 +0000 ===
+[25730] * Starting control server on unix:///tmp/puma-status-1658217465427-25730
+[25730] - Worker 0 (PID: 25736) booted in 0.05s, phase: 0
+[25730] - Gracefully shutting down workers...
+[25730] === puma shutdown: 2022-07-19 07:59:49 +0000 ===
+[25730] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 08:07:16 +0000 ===
+[25865] * Starting control server on unix:///tmp/puma-status-1658218036920-25865
+[25865] - Worker 0 (PID: 25871) booted in 0.05s, phase: 0
+[25865] - Gracefully shutting down workers...
+[25865] === puma shutdown: 2022-07-19 08:41:41 +0000 ===
+[25865] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 08:42:14 +0000 ===
+[26875] * Starting control server on unix:///tmp/puma-status-1658220134281-26875
+[26875] - Worker 0 (PID: 26882) booted in 0.05s, phase: 0
+[26875] - Gracefully shutting down workers...
+[26875] === puma shutdown: 2022-07-19 08:43:37 +0000 ===
+[26875] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 08:50:27 +0000 ===
+[27006] * Starting control server on unix:///tmp/puma-status-1658220627577-27006
+[27006] - Worker 0 (PID: 27012) booted in 0.05s, phase: 0
+[27006] - Gracefully shutting down workers...
+[27006] === puma shutdown: 2022-07-19 08:51:17 +0000 ===
+[27006] - Goodbye!
+Exiting
+=== puma startup: 2022-07-19 08:55:52 +0000 ===
+[27082] * Starting control server on unix:///tmp/puma-status-1658220952398-27082
+[27082] - Worker 0 (PID: 27090) booted in 0.05s, phase: 0
+[27082] - Gracefully shutting down workers...
+[27082] === puma shutdown: 2022-07-19 08:56:33 +0000 ===
+[27082] - Goodbye!
+Exiting

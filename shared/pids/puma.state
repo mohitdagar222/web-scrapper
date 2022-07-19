@@ -1,0 +1,5 @@
+---
+pid: 27082
+control_url: unix:///tmp/puma-status-1658220952398-27082
+control_auth_token: d190c72c0ea1046d52281172e53277a6
+running_from: "/root/web-scrapper"

@@ -20,14 +20,14 @@ class Scraper
 	end
 
 	def self.bot_scrape_details
-		driver = Selenium::WebDriver.for :chrome
-		driver.navigate.to "https://www.amazon.in/Apple-MacBook-14-inch-8%E2%80%91core-14%E2%80%91core/dp/B09JR8TX74/ref=sr_1_1?crid=2PVSOS69SXZRA&keywords=macbook+air+pro+16gb+ram+512+ssd&qid=1657630967&sprefix=macbook+air+pro+16+gb%2Caps%2C210&sr=8-1"
-		wait = Selenium::WebDriver::Wait.new(:timeout => 20)
-		name = wait.until {
-			driver.find_element(:id, "productTitle")
-		}
-		puts name.text
-		driver.quit
+#		driver = Selenium::WebDriver.for :chrome
+#		driver.navigate.to "https://www.amazon.in/Apple-MacBook-14-inch-8%E2%80%91core-14%E2%80%91core/dp/B09JR8TX74/ref=sr_1_1?crid=2PVSOS69SXZRA&keywords=macbook+air+pro+16gb+ram+512+ssd&qid=1657630967&sprefix=macbook+air+pro+16+gb%2Caps%2C210&sr=8-1"
+#		wait = Selenium::WebDriver::Wait.new(:timeout => 20)
+#		name = wait.until {
+#			driver.find_element(:id, "productTitle")
+#		}
+#		puts name.text
+#		driver.quit
 	end
 end
 
