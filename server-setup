@@ -1,0 +1,93 @@
+Deploy a Rails App with Puma and Nginx 
+
+Steps -
+1. Login to server
+2. As we will use github to host our git repo, user will need access to the repository.  So, we will generate a key pair for the user from the server
+3. Install git
+4. Install postgresql database
+5. Install RVM
+6. Take application clone
+7. Configure database connection for production 
+8. Create Database
+9. Execute bundle
+10. Set postgres configurations to listen on specific IPs ( if using host as IP than change settings in file /etc/postgresql/12/main/postgresql.conf, listen_addresses=’IP’)
+11. Configure puma
+
+----------
+max_threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }
+min_threads_count = ENV.fetch("RAILS_MIN_THREADS") { max_threads_count }
+threads min_threads_count, max_threads_count
+# Specifies the `port` that Puma will listen on to receive requests; default is 3000.
+#
+port        ENV.fetch("PORT") { 3000 }
+# Specifies the `environment` that Puma will run in.
+# Specifies the number of `workers` to boot in clustered mode.
+# Workers are forked web server processes. If using threads and workers together
+# the concurrency of the application would be max `threads` * `workers`.
+# Workers do not work on JRuby or Windows (both of which do not support
+# processes).
+#
+# workers ENV.fetch("WEB_CONCURRENCY") { 2 }
+workers 1
+# Use the `preload_app!` method when specifying a `workers` number.
+# This directive tells Puma to first boot the application and load code
+# before forking the application. This takes advantage of Copy On Write
+# process behavior so workers use less memory.
+# preload_app!
+app_dir = File.expand_path("../..", __FILE__)
+shared_dir = "#{app_dir}/shared"
+# Default to production
+rails_env = ENV['RAILS_ENV'] || "production"
+environment rails_env
+# Set up socket location
+bind "unix://#{shared_dir}/sockets/puma.sock"
+# Logging
+stdout_redirect "#{shared_dir}/log/puma.stdout.log", "#{shared_dir}/log/puma.stderr.log", true
+# Set master PID and state locations
+pidfile "#{shared_dir}/pids/puma.pid"
+state_path "#{shared_dir}/pids/puma.state"
+activate_control_app
+on_worker_boot do
+  require "active_record"
+  ActiveRecord::Base.connection.disconnect! rescue ActiveRecord::ConnectionNotEstablished
+  ActiveRecord::Base.establish_connection(YAML.load_file("#{app_dir}/config/database.yml")[rails_env])
+end
+# Allow puma to be restarted by `rails restart` command.
+plugin :tmp_restart
+----------
+
+number of workers = grep -c processor /proc/cpuinfo (number of CPU cores of server)
+mkdir -p shared/pids shared/sockets shared/log
+
+12. Setup Nginx
+Create default file /etc/nginx/sites-available/default
+
+----------
+upstream app {
+  # Path to Puma SOCK file, as defined previously
+  server unix:/home/ubuntu/app_name_here/shared/sockets/puma.sock fail_timeout=0;
+}
+server {
+  listen 80;
+  server_name localhost;
+root /home/ubuntu/app_name_here/public;
+try_files $uri/index.html $uri @app;
+location @app {
+    proxy_pass http://app;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host $http_host;
+    proxy_redirect off;
+  }
+error_page 500 502 503 504 /500.html;
+  client_max_body_size 4G;
+  keepalive_timeout 10;
+access_log /home/ubuntu/app_name_here/log/nginx.access.log;
+  error_log /home/ubuntu/app_name_here/log/nginx.error.log;
+}
+----------
+
+13. Restart Nginx and execute Puma.
+
+
+
+
